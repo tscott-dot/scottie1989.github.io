@@ -22,3 +22,6 @@ layout: feed
 			<id>http://scottie1989.github.io/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
+			{% endfor %}
+
+</feed>
