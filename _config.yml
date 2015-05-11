@@ -1,2 +1,7 @@
-name: Hank Quinlan, Horrible Cop
-	markdown: kramdown
+---
+layout: default
+---
+
+# My Jekyll site
+
+Welcome to my Jekyll site
