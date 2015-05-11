@@ -1,9 +1,10 @@
 ---
 layout: default
+permalink: /blog/:year/:month/:day/:title
 ---
 
 # My Jekyll site
 
 Welcome to my Jekyll site
 
-permalink: /blog/:year/:month/:day/:title
+
