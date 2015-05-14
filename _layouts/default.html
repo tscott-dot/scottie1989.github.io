@@ -15,7 +15,12 @@
   		ga('create', 'UA-62943179-1', 'auto');
   		ga('send', 'pageview');
 		</script>
-			
+		
+		<!-- 404 redirect -->
+		 {% if page.url == "/404.html" %}
+		 <meta http-equiv="refresh" content="5; url=/">
+		 {% endif %}
+    
 		</head>
 		<body>
 			<nav>
