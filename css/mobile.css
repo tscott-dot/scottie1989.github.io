@@ -4,16 +4,12 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    width: 100%;
     padding: 0%;
     list-style: none;
     font-weight: bold;
-    display: inline;
-    white-space:nowrap;
 }
 nav ul li, footer ul li {
     display: inline;
-    white-space:nowrap;
     /* margin-right: 20px; */
 }
 a {
