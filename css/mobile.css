@@ -8,10 +8,10 @@ nav ul, footer ul {
     padding: 0%;
     list-style: none;
     font-weight: bold;
-    white-space: nowrap;
 }
 nav ul li, footer ul li {
     display: inline;
+    white-space: nowrap;
     /* margin-right: 20px; */
 }
 a {
