@@ -8,10 +8,16 @@ title: TR Scott
         	<p>Come back soon. :-)</p>
 </div>
 <!-- Post feed -->
-<h1> Latest posts</h1>
-	<ul class="posts">
+<h1>Latest posts</h1>
+<div class="hfeed">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+{% for post in site.posts %}
+    <article class="hentry entry">
+        <h1 class="entry-title">
+            <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+        </h1>
+        <p>Posted on <span class="published">{{ post.date }}</span></p>
+    </article>
+{% endfor %}
+
+</div>
