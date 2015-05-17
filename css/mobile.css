@@ -10,7 +10,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    /* display: inline; */
     display: block;
     /* margin-right: 20px; */
 }
