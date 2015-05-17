@@ -16,7 +16,7 @@ title: TR Scott
         <h3 class="entry-title">
             <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
         </h3>
-        <p class="entry-content"></p>
+        <p class="entry-content">{{ post.content | strip_html | truncatewords: 50 }}</p>
         <p>Posted on <span class="published">{{ post.date }}</span></p>
     </article>
 {% endfor %}
