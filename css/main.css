@@ -24,7 +24,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 4em;
+    font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
@@ -32,7 +32,7 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';  
 }
 h3 {
-    font-size: 2.25em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';  
 }
 p {
