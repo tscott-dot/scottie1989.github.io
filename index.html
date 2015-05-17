@@ -4,18 +4,18 @@ title: TR Scott
 ---
 <!-- /.blurb -->
 <div class="blurb">
-        	<h1>Site under development</h1>
+        	<h2>Site under development</h2>
         	<p>Come back soon. :-)</p>
 </div>
 <!-- Post feed -->
-<h1>Latest posts</h1>
+<h2>Latest posts</h2>
 <div class="hfeed">
 
 {% for post in site.posts %}
     <article class="hentry entry">
-        <h2 class="entry-title">
+        <h3 class="entry-title">
             <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-        </h2>
+        </h3>
         <p>Posted on <span class="published">{{ post.date }}</span></p>
     </article>
 {% endfor %}
