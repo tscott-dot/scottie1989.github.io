@@ -11,4 +11,7 @@ Welcome to my Jekyll site
 # Sitemap
 gems:
   - jekyll-sitemap
+  
+#Homepage post pagination  
+  paginate: 5
 
