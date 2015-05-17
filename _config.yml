@@ -1,7 +1,7 @@
 ---
 name: TR Scott
 layout: default
-permalink: /blog/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 ---
 
 # My Jekyll site
