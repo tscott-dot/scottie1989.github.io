@@ -11,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    white-space: nowrap;
+    display: block;
     /* margin-right: 20px; */
 }
 a {
