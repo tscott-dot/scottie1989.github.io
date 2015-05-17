@@ -12,7 +12,7 @@
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
     <url>
-        <loc>http://http://trscott.co.uk{{ page.url | remove: 'index.html' }}</loc>
+        <loc>http://trscott.co.uk{{ page.url | remove: 'index.html' }}</loc>
     </url>
     {% endif %}
     {% endif %}
