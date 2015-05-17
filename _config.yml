@@ -8,8 +8,7 @@ permalink: /:year/:month/:day/:title
 
 Welcome to my Jekyll site
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  email:mailto:info@trscott.co.uk
-  twitter: tomscott230
+# Sitemap
+gems:
+  - jekyll-sitemap
 
