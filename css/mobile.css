@@ -21,37 +21,6 @@ a:hover {
 }
 
 h1 {
-	font-size: 48px;
-}
-
-h2 {
-	font-size: 36px;
-}
-
-h3 {
-	font-size: 24px;
-}
-
-h4 {
-	font-size: 21px;
-}
-
-h5 {
-	font-size: 18px;
-}
-
-h6 {
-	font-size: 16px;
-}
-
-p {
-	font-size: 14px;
-	line-height: 15px;
-    color: #333;
-}
-
-/* Old CSS
-h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -68,7 +37,6 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-*/ 
 
 footer {
     border-top: 1px solid #d5d5d5;
