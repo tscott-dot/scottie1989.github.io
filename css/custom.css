@@ -1,0 +1,11 @@
+body {
+    padding-top: 50px;
+    @media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+    margin: 60px auto;
+    width: 70%;
+
+a:hover {
+    text-decoration: underline;
+}
