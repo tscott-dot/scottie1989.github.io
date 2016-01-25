@@ -8,18 +8,4 @@ title: TR Scott
             <h2>Site under development</h2>
         	<p>Come back soon. :-)</p>
 </div>
-<!-- Post feed -->
-<h2>Latest reviews</h2>
-<div class="hfeed">
 
-{% for post in site.posts %}
-    <article class="hentry entry">
-        <h3 class="entry-title">
-            <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-        </h3>
-        <p class="entry-content" "{{ post.content | strip_html | truncatewords: 50 }}"> </p>
-        <p>Posted on <span class="published">{{ post.date }}</span></p>
-    </article>
-{% endfor %}
-
-</div>
