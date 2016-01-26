@@ -3,7 +3,7 @@ layout: post
 title: "Test album review"
 date: 2016-01-25
 tags: 
-- The Beatles
+- Beatles,The
 - 1960s
 ---
 <h1>Post title</h1>
